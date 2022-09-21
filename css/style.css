@@ -41,6 +41,12 @@ nav {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5rem;
+}
+
 .logo {
     display: flex;
     flex-grow: 2;
@@ -64,7 +70,7 @@ nav {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem 1rem;
 }
 
 
@@ -83,3 +89,45 @@ nav {
     position: absolute;
 }
     
+.prezzi {
+    font-size: x-small;
+}
+
+.container strong {
+    color: red;
+}
+
+.span-line{
+    text-decoration: line-through;
+}
+
+.container .fa-heart {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.container .fa-heart:hover {
+    color: red;
+}
+
+.sconto-rosso {
+    background-color: red;
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.sostenibilità {
+    background-color: green;
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.sconti {
+    position: absolute;
+    bottom: 5rem;
+    left: 0;
+    font-size: smaller;
+}
