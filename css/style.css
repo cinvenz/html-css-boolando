@@ -63,17 +63,20 @@ nav {
     max-width: 900px;
     margin: auto;
     display: flex;
-    
-}
-
-img {
-    /* width: 33%; */
+    flex-wrap: wrap;
+    gap: 1rem;
 }
 
 
 .immagine1, .immagine2, .immagine3, .immagine4, .immagine5, .immagine6 {
     position: relative;
-    
+    flex-basis: auto;
+    width: calc(100% / 3 - 1rem)
+   
+}
+
+.container img {
+    width: 100%; 
 }
 
 .img1, .img2, .img3, .img4, .img5, .img6 {
