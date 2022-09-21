@@ -87,6 +87,7 @@ a {
 
 .img1, .img2, .img3, .img4, .img5, .img6 {
     position: absolute;
+    z-index: 0;
 }
     
 .prezzi {
@@ -130,4 +131,8 @@ a {
     bottom: 5rem;
     left: 0;
     font-size: smaller;
+}
+
+.img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover {
+    opacity: 0;
 }
