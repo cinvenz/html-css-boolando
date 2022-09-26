@@ -1,3 +1,5 @@
+/* style card con opacity */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,10 +8,12 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    
 }
 
 body {
     margin-top: 6.5rem;
+    
 }
 
 /* inizio nav */
@@ -64,6 +68,9 @@ a {
 }
 
 /* inizio main */
+main {
+    padding-left: 1rem;
+}
 
 .container {
     max-width: 900px;
@@ -71,6 +78,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 2rem 1rem;
+    margin-bottom: 3rem;
 }
 
 
@@ -135,4 +143,21 @@ a {
 
 .img1:hover, .img2:hover, .img3:hover, .img4:hover, .img5:hover, .img6:hover {
     opacity: 0;
+}
+
+/* footer */
+
+.footer-container {
+    display: flex;
+    background-color: rgba(26,26,26,255);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .8rem;
+    padding: 1.5rem 0;
+}
+
+.footer-container h3 {
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
 }
